@@ -17,11 +17,8 @@ public class Employee {
 	private String function;
 	private Long boss_id;
 	
-	public Employee(Long id, String fullname, String function, Long boss_id) {
-		this.id = id;
-		this.fullname = fullname;
-		this.function = function;
-		this.boss_id = boss_id;
+	public Employee() {
+		
 	}
 	
 	public Long getId() {
